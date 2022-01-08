@@ -73,8 +73,34 @@
 <details>
   <summary><strong>Observer & Delegation</strong></summary>
   <br>
-  Work in-progress
+  Work in-progress<br>
   
+  ## Script
+  
+  ### Q: What is the Delegation Design Pattern?
+
+  A: The delegation design pattern enables an object to delegate some of its responsibilities to another object. The delegating object typically keeps a reference to the other object.
+
+  ### Q: How do you avoid memory leaks when using the delegation pattern?
+
+  A: The delegate variable has to be declared as ‘weak’ to avoid a retain cycle.
+
+  ### Q: What are some examples of when we use the delegation pattern in iOS development?
+
+  A: The most common place where we use the delegation pattern in iOS development would be with TableViews & CollectionViews.
+
+  ### Q: What is the Observer Design Pattern?
+
+  A: The Observer Design Pattern allows an object to notify other objects about changes in its state.
+
+  ### Q: What are some examples of when we use the Observer Design Pattern in iOS development?
+
+  A: TODO://
+
+  ### Q: What is the main difference between the Delegation and Observer pattern?
+
+  A: The delegation design pattern is a one-to-one relationship, meaning one object communicates with one other object & the observer pattern is a one-to-many relationship, meaning one object can communicate with multiple other objects.
+
   <hr>
 </details>
 
